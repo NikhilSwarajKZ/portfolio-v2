@@ -25,16 +25,8 @@ import Side from './../components/side';
 
 const socialMedia = [
   {
-    name: 'facebook',
-    url: 'https://www.facebook.com/',
-  },
-  {
     name: 'twitter',
     url: 'https://twitter.com/',
-  },
-  {
-    name: 'instagram',
-    url: 'https://www.instagram.com/',
   },
   {
     name: 'linkedin',

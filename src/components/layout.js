@@ -16,7 +16,8 @@ const Layout = ({children, location}) => {
   const [isLoading, setIsLoading] = React.useState(isHome);
   return (
     <ParallaxProvider>
-      <main className={'bg-deep-blue'}>
+      <main className={'min-h-screen min-w-screen bg-deep-blue '+
+      'overflow-y-auto'}>
         {(isLoading && isHome) ? (
         <Loader finishLoading={()=>setIsLoading(false)}/>
       ): (

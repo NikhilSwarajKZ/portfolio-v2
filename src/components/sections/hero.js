@@ -90,7 +90,7 @@ const Hero = () => {
         target={'_blank'}
         className={'text-neon-teal font-bold'}
       >
-        Mercuri, CX.
+        Mercuri CX.
       </OutboundLink>
     </p>
   );
@@ -136,6 +136,7 @@ const Hero = () => {
                     >
                       <div
                         style={{transitionDelay: `${i + 1}00ms`}}
+                        className='p-1'
                       >
                         {item}
                       </div>
@@ -144,12 +145,12 @@ const Hero = () => {
                 {isMounted && (
                   <CSSTransition classNames={'fade'} timeout={loaderDelay}>
                     <div
-                      className={'z-50 buttom-0 right-10 hidden sm:block ' +
+                      className={'z-50 bottom-5 right-10 hidden sm:block ' +
                         'absolute transition duration-500 hover:scale-125'}
-                      style={{transitionDelay:
-                          `${(items.length + 1) * 100}ms`}}>
+                    >
                       <IconLaptop/>
                     </div>
+
                   </CSSTransition>
                 )}
               </TransitionGroup>

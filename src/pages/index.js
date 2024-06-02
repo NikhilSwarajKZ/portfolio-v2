@@ -27,6 +27,6 @@ export default IndexPage;
 
 export function Head() {
   return (
-    <SEO title={'Home | Nikhil'}/>
+    <SEO title={'Home | Nikhil Swaraj'}/>
   );
 }

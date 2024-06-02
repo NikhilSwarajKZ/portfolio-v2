@@ -68,7 +68,8 @@ const Nav = ({location, initialNavState}) => {
             clsx('flex-col flex-grow md:flex md:justify-end md:flex-row',
               isOpen ? 'shadow-2xl' : '',
               'shadow-deep-blue-dark md:shadow-none',
-              'min-h-screen md:min-h-fit opacity-95 rounded-tl-lg',
+              'min-h-screen md:min-h-fit opacity-90 rounded-tl-2xl',
+              'rounded-bl-2xl',
               isOpen ? 'bg-deep-blue-dark' : '', 'md:bg-inherit')
           }>
           <TransitionGroup component={null}>
@@ -94,7 +95,6 @@ const Nav = ({location, initialNavState}) => {
                   <NavLink
                     key={i}
                     url={item.link}
-                    index={i + 1}
                     name={item.name}
                   />
                 );
