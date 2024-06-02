@@ -56,6 +56,12 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: ['GTM-PXZF6VTS'],
+      },
+    },
+    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://nikhilswaraj.dev`,
