@@ -3,7 +3,7 @@ module.exports = {
       {
         name: 'gatsby-site',
         script: 'npm',
-        args: 'run serve --port 3000',
+        args: 'run serve --port=3000',
         interpreter: 'none',
         autorestart: true,
         watch: false,
