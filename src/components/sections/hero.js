@@ -35,9 +35,8 @@ const Hero = () => {
   }, []);
 
   const one = (
-    <h2 className={'text-xl sm:text-3xl text-neon-teal' +
-      ' font-light font-lato'}>
-      Hello World
+    <h2 className={'text-xl sm:text-2xl text-neon-teal font-semibold font-light font-lato'}>
+      Greetings, Universe!
     </h2>
   );
   const two = (
@@ -55,9 +54,9 @@ const Hero = () => {
 
   const four = (
     <p className={'text-base text-neon-pink mt-5 max-w-xl'}>
-      {'I am a '}
+      {'I am a dynamic '}
       <span className={'text-neon-teal font-bold'}>
-        Dynamic Software Engineer
+        Software Engineer
       </span>
       {' with a robust background in crafting '}
       <span className={'text-neon-teal font-bold'}>
@@ -67,31 +66,28 @@ const Hero = () => {
       <span className={'text-neon-teal font-bold'}>Python</span>
       {' and '}
       <span className={'text-neon-teal font-bold'}>JavaScript</span>
-      {'. With '}
-      <span className={'text-neon-teal font-bold'}>1.5+ years</span>
+      {'. With over '}
+      <span className={'text-neon-teal font-bold'}>1.5 years</span>
       {' of hands-on experience, I specialize in leveraging '}
       <span className={'text-neon-teal font-bold'}>AWS</span>
-      {' cloud platforms, adeptly employing '}
-      <span className={'text-neon-teal font-bold'}>Docker, Kubernetes, </span>
-      {'and various Microservice architectures to design scalable and' +
+      {' cloud platforms and adeptly employing '}
+      <span className={'text-neon-teal font-bold'}>Docker</span>
+      {' and other various microservice architectures to design scalable and' +
       ' efficient solutions.'}
     </p>
   );
 
   const fours = (
     <p className={'text-base text-neon-pink mt-5 max-w-xl'}>
-      {'Currently contributing my expertise to a'+
-      ' pioneering  company, I actively contribute to the'+
-      ' development of innovative products at the intersection of'+
-      ' technology and ecommerce at '
-      }
+      {'Currently, I am contributing my expertise to a pioneering company, '} 
       <OutboundLink
-        href={'https://www.nimblework.com/'}
+        href={'https://www.mercuri.cx/'}
         target={'_blank'}
         className={'text-neon-teal font-bold'}
       >
-        Mercuri CX.
+        Mercuri CX
       </OutboundLink>
+      {' where I actively participate in developing innovative products at the intersection of technology and e-commerce.'}
     </p>
   );
 
@@ -106,6 +102,11 @@ const Hero = () => {
       <IconWrapper href={twitter.url}>
         <IconTwitter/>
       </IconWrapper>
+    </div>
+  );
+  const six = (
+    <div className="fixed inset-0 bottom-5 flex justify-center items-end">
+      <span className="text-neon-teal font-bold">שָׁלוֹם עֲלֵיכֶם</span>
     </div>
   );
 
@@ -157,8 +158,8 @@ const Hero = () => {
             </>
           )}
         </div>
-      </div>
-
+      </div>  
+      {six}
     </div>
   );
 };

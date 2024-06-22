@@ -95,6 +95,7 @@ const Nav = ({location, initialNavState}) => {
                   <NavLink
                     key={i}
                     url={item.link}
+                    location={location}
                     name={item.name}
                   />
                 );
