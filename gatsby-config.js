@@ -43,7 +43,7 @@ module.exports = {
       },
       {
         name: 'Resume',
-        link: 'https://drive.google.com/file/d/1huk4LDa6vh2RY5CMb8zJKe-ilLcTY4qL/view?usp=drive_link',
+        link: 'https://drive.google.com/file/d/1438-rmWbHgh0UlX5ozSe_V1La58rH13Q/view?usp=sharing',
       },
     ],
   },
